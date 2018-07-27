@@ -24,16 +24,16 @@ public class Config {
     protected void load() {
         Map<String, String> env = System.getenv();
         try {
-            botToken = env.get("TOKEN");
-            modRoleId = Long.parseLong(env.get("MOD_ROLE_ID"));
-            canBanRoleId = Long.parseLong(env.get("CAN_BAN_ROLE_ID"));
-            canKickRoleId = Long.parseLong(env.get("CAN_KICK_ROLE_ID"));
-            warningRoleId = Long.parseLong(env.get("WARNING_ROLE_ID"));
-            muteRoleId = Long.parseLong(env.get("MUTE_ROLE_ID"));
-            logChannelId = Long.parseLong(env.get("LOG_CHANNEL_ID"));
-            serverId = Long.parseLong(env.get("SERVER_ID"));
-            ownerId = Long.parseLong(env.get("OWNER_ID"));
-            prefix = env.getOrDefault("PREFIX", "canu");
+            botToken = env.get("NDcyNDU5OTA4NTc1NjU3OTk1.DjzsYA._kAooMBFx3SVNmCOVPf9bef5McM");
+            modRoleId = Long.parseLong(env.get("472466775318069248"));
+            canBanRoleId = Long.parseLong(env.get("472466775318069248"));
+            canKickRoleId = Long.parseLong(env.get("472466775318069248"));
+            warningRoleId = Long.parseLong(env.get("472466775318069248"));
+            muteRoleId = Long.parseLong(env.get("472466775318069248"));
+            logChannelId = Long.parseLong(env.get("451380732997271552"));
+            serverId = Long.parseLong(env.get("441074979623141388"));
+            ownerId = Long.parseLong(env.get("395509201402855424"));
+            prefix = env.getOrDefault("PREFIX", "t!");
             restartCommand = env.getOrDefault("RESTART_COMMAND", "sh run.sh");
         } catch (Exception e) {
             BanUtil.LOGGER.error(UtilDue.BIG_FLASHY_ERROR
